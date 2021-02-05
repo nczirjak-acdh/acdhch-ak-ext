@@ -1,0 +1,21 @@
+{
+    "name": "nczirjak-acdh/acdhch-ak-ext",
+    "description": "ACDHCH extension module for VuFind/AkSearch",
+    "keywords": [],
+    "homepage": "https://github.com/nczirjak-acdh/acdhch-ak-ext",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norbert Czirjak",
+            "email": "norbert.czirjak@oeaw.ac.at"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "AcdhchExt\\": "src/AcdhchExt"
+        }
+    }
+}
