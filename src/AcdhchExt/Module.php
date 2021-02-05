@@ -1,5 +1,5 @@
 <?php
-namespace AcdhchExt;
+namespace acdhchExt;
 
 class Module {
     public function getAutoloaderConfig() {
@@ -12,7 +12,7 @@ class Module {
                 'plugin_managers' => [
                     'recorddriver' => [
                         'aliases' => [
-                            'VuFind\RecordDriver\SolrMarc' => 'AcdhchExt\SolrMarc',
+                            'VuFind\RecordDriver\SolrMarc' => 'acdhchExt\SolrMarc',
                         ],
                     ],
                 ],

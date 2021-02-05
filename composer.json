@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AcdhchExt\\": "src/AcdhchExt"
+            "acdhchExt\\": "src/acdhchExt"
         }
     }
 }
