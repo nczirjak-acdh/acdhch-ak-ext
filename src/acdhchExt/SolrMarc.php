@@ -1,6 +1,6 @@
 <?php
 
-namespace acdhchExt;
+namespace AcdhchExt;
 
 class SolrMarc extends \AkSearch\RecordDriver\SolrMarc {
     public function getThumbnail($size = 'small'){
