@@ -1,7 +1,7 @@
 <?php
 
 
-namespace AcdhchExt\RecordDriver;
+namespace AcdhchExt;
 
 /**
  * AK: Extending default model for Solr records -- used when a more specific model
@@ -19,5 +19,7 @@ namespace AcdhchExt\RecordDriver;
  */
 class SolrDefault extends \AkSearch\RecordDriver\SolrDefault
 {
+    
+    
 
 }

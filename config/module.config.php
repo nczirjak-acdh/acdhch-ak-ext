@@ -18,8 +18,8 @@ $config = [
                     //'AcdhchExt\RecordDriver\SolrMarc' => 'AkSearch\RecordDriver\SolrMarc'
                 ],
                 'aliases' => [
-                    'VuFind\RecordDriver\SolrMarc' => 'AcdhchExt\SolrMarc',
-                    //'VuFind\RecordDriver\SolrDefault' => 'AcdhchExt\RecordDriver\SolrDefault',
+                    'VuFind\RecordDriver\SolrMarc' => 'AcdhchExt\RecordDriver\SolrMarc',
+                    'VuFind\RecordDriver\SolrDefault' => 'AcdhchExt\RecordDriver\SolrDefault',
                     //'VuFind\RecordDriver\SolrMarc' => 'AcdhchExt\RecordDriver\SolrMarc'
                 ],
                 
