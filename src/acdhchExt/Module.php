@@ -3,6 +3,7 @@
 namespace AcdhchExt;
 
 class Module {
+
     public function getAutoloaderConfig() {
         return [];
     }
@@ -12,12 +13,18 @@ class Module {
             'vufind' => [
                 'plugin_managers' => [
                     'recorddriver' => [
+                        //'factories' => [
+                            //'AcdhchExt\RecordDriver\SolrDefault' => 'VuFind\RecordDriver\SolrDefaultFactory',
+                            //'AcdhchExt\RecordDriver\SolrMarc' => 'VuFind\RecordDriver\SolrDefaultFactory'
+                        //],
                         'aliases' => [
-                            'VuFind\RecordDriver\SolrMarc' => 'AcdhchExt\SolrMarc',
-                        ],
+                            //'VuFind\RecordDriver\SolrDefault' => 'AkSearch\RecordDriver\SolrDefault',
+                            'VuFind\RecordDriver\SolrMarc' => 'AcdhchExt\RecordDriver\SolrMarc'
+                        ],                        
                     ],
                 ],
             ],
         ];
     }
+
 }
