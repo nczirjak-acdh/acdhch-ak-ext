@@ -86,6 +86,14 @@ class Module {
                             'staffviewmarc' => 'AcdhchExt\RecordTab\StaffViewMARC'
                         ]
                     ],
+                    'ils_driver' => [
+                        'factories' => [
+                            'AcdhchExt\ILS\Driver\Alma' => 'AkSearch\ILS\Driver\Alma'
+                        ],
+                        'aliases' => [
+                            'AkSearch\ILS\Driver\Alma' => 'AcdhchExt\ILS\Driver\Alma'
+                        ]
+                    ],
                 ],
             ],
         ];
