@@ -6,6 +6,6 @@ class RecordDataFormatterFactory
     extends \AkSearch\View\Helper\Root\RecordDataFormatterFactory
 {
     public function getDefaultCollectionInfoSpecs() {
-        echo "getDefaultCollectionInfoSpecs";
+        
     }
 }
